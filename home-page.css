@@ -1,0 +1,99 @@
+/* Home Page STYLE */
+
+/* Table Section */
+.tabcontent{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 800px;
+    margin-top: 100px;
+    align-items: center;
+}
+.tabcontent .tab-header-container{
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #080714;
+}
+.tab-header-container p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.tabcontent .search-container{
+    width: 100%;
+    height: 90px;
+    /* background-color: #707070; */
+    color: #080714;
+    display: flex;
+    align-items: center;
+    
+}
+.myInput {
+    /* background-image: url('/css/searchicon.png'); Add a search icon to input */
+    /* background-position: 10px 12px; Position the search icon */
+    /* background-repeat: no-repeat; Do not repeat the icon image */
+    width: 20%; /* Full-width */
+    height: 20px;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    margin-left: 100px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-bottom: 12px;
+}
+#filterSelect{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+.filter-btn{
+    width: auto;
+    height: 40px;
+    background-color: #707070;
+    color: white;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.tabcontent .table-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+}
+thead{
+    border-bottom: 1px solid #707070;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.jenjang-select{
+    margin-left: 600px;
+}
+.jenjang-selec2{
+    margin-left: 10px;
+}
